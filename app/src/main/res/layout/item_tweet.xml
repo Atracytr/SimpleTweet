@@ -49,4 +49,16 @@
         app:layout_constraintEnd_toEndOf="@+id/tvTweetBody"
         tools:text="36m" />
 
+    <TextView
+        android:id="@+id/tvUserScreenName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTweetBody"
+        app:layout_constraintStart_toEndOf="@+id/tvUsername"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="ABC" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
