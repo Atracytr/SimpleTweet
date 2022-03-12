@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textStyle="italic"
-        
+
         app:layout_constraintEnd_toEndOf="@+id/tvTweetBody"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="36m" />
